@@ -4,18 +4,25 @@
 }
 .app {
     width: 100vw;
+    height: 100vh;
     background: linear-gradient(145deg, #2193b0, #6dd5ed);
     color: white;
-    margin: 50px auto;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     border-radius: 10px;
 }
 .header1 {
+    width: 50%;
     margin: auto;
     text-align: center;
-    padding: 16px 16px 0;
+    padding: 16px 54px 0 18px;
     border-bottom: 1px solid;
+    position: relative;
+}
+.header1 i {
+    position: absolute;
+    left: 0;
+    top: 50%;
 }
 .header1 input {
     outline: 0;
@@ -29,9 +36,9 @@
     color: white;
 }
 .viewmain {
-    margin: 50px auto;
     text-align: center;
     font-size: 24px;
+    margin: 20px 0;
 }
 .viewmain .temp {
     position: relative;
@@ -40,17 +47,18 @@
 .viewmain .temp::after {
     content: 'o';
     position: absolute;
-    font-size: 20px;
+    font-size: 36px;
 }
 .inforapp {
     padding: 20px 0;
     border-top: 1px solid;
+    margin: 28px 0;
 }
 .row {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 16px;
+    margin: 24px 0;
 }
 .item {
     text-align: center;
