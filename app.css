@@ -48,6 +48,15 @@
     position: absolute;
     font-size: 36px;
 }
+.viewmain .temps {
+    position: relative;
+    font-size: 36px;
+}
+.viewmain .temps::after {
+    content: 'o';
+    position: absolute;
+    font-size: 16px;
+}
 .inforapp {
     padding: 20px 0;
     border-top: 1px solid;
